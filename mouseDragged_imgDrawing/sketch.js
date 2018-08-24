@@ -15,7 +15,7 @@ function mousePressed() {
 }
 
 function mouseDragged() {
-  background(200);
+  //background(200);
   image(img, mouseX, mouseY, 50,50)
 }
 
