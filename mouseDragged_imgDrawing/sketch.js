@@ -7,7 +7,9 @@ function preload() {
 function setup() {
   createCanvas(472, 472);
   background(200);
-  image(img, 0, 0,50,50);
+  textSize(32);
+  text('mouseDragged_imgDrawing', 0, 25);
+  image(img, 10, 10,50,50);
 }
 
 function mousePressed() {
@@ -15,7 +17,6 @@ function mousePressed() {
 }
 
 function mouseDragged() {
-  //background(200);
   image(img, mouseX, mouseY, 50,50)
 }
 
